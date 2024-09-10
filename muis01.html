@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muis - 01</title>
+    <script>
+        let wordCount = 3;
+        let wordPos = {
+            "brug"      : "726,520,1014,694",
+            "Jefke"     : "186,736,381,995",
+            "kat"       : "465,816,542,966",
+            "kayak"     : "755,498,114,843",
+            "rode boot" : "374,179,596,380",
+            "vlieger"   : "524,57,660,128",
+            "vos"       : "768,224,446,605",
+            "bal"       : "462,664,758,928",
+            "bel"       : "429,419,590,593",
+            "bestuurder": "432,440,555,597",
+            "fiets"     : "291,608,722,875",
+            "hert"      : "384,669,474,738",
+            "konijn"    : "63,459,443,690",
+            "slak"      : "197,470,579,594",
+            "venster"   : "579,717,708,866",
+            "laptop"    : "492,700,936,943",
+            "plas"      : "309,617,729,993",
+            "kameel"    : "335,149,946,488"
+        };
+        let words = Object.keys(wordPos);
+    </script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./muis.js"></script>
+</head>
+<body onload="createContentScroll()">
+    <h1>Zoek en klik</h1>
+    <table id="formTable">
+        <tr  id="formRow">
+        </tr>
+    </table>
+</body>
+</html>

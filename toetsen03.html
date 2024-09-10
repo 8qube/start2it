@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toetsenbord - 3</title>
+    <script>
+        let wordCount = 10;
+        let words = [
+        "gl&#252;hwein", "kn&#228;ckebr&#246;d", "r&#246;sti", "Belgi&#235;", "contra-enqu&#234;te","cr&#234;pe",
+        "fa&#231;ade", "Fran&#231;aise", "gar&#231;on", "salade ni&#231;oise", "re&#231;u",
+        "&#233;&#233;n","priv&#233;leven","fianc&#233;","d&#233;j&#224;","clich&#233;","beroepscarri&#232;re","ma&#238;tre d'h&#244;tel",
+        "zwart-wit","hotel-restaurant","cultureel-historisch","journalist-schrijver","kant-en-klare"
+        ];
+    </script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./toetsen.js"></script>
+</head>
+<body onload="createContent()">
+    Woorden met een speciale teken.
+    <form id="form">
+        <table id="formTable">
+            <tr>
+                <td colspan="2">
+                    <h1>Typ de woorden</h1>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

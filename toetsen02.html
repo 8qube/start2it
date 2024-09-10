@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toetsenbord - 2</title>
+    <script>
+        let wordCount = 10;
+        let words = ["Marc","Jean","Patrick","Luc","Michel",
+                     "Philippe","Jan","Mohamed","David","Thomas",
+                     "Maria","Marie","Nathalie","Martine","Monique",
+                     "Anne","Rita","Nicole","Christine","Anna"];
+    </script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./toetsen.js"></script>
+</head>
+<body onload="createContent()">
+    Meest voorkomende voornamen in België (<a href="https://statbel.fgov.be/nl/themas/bevolking/namen-en-voornamen/voornamen-van-vrouwen-en-mannen">bron</a>).
+    <form id="form">
+        <table id="formTable">
+            <tr>
+                <td colspan="2">
+                    <h1>Typ de woorden</h1>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
